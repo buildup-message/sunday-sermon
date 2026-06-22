@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>당신은 왕의 대리인입니다 | 주일설교 묵상</title>
+    
+    <!-- Pretendard 폰트 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css" />
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Pretendard', 'sans-serif'],
+                    },
+                    colors: {
+                        ivory: {
+                            100: '#FFFDF9', // 가장 밝은 아이보리 (본문 배경)
+                            200: '#F5F0E6', // 약간 톤 다운된 아이보리 (카드 배경)
+                            300: '#E8DFD1', // 테두리용 아이보리
+                        },
+                        wood: {
+                            400: '#D4A373', // 밝은 나무색
+                            600: '#A67C52', // 중간 나무색
+                            800: '#5C4033', // 짙은 나무색
+                        },
+                        green: {
+                            600: '#436B4D', // 차분한 녹색
+                            700: '#2E5C31', // 메인 포인트 초록
+                            800: '#1B3B1E', // 깊고 진한 초록 (텍스트용)
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* 가로 스크롤바 숨기기 (슬라이드용) */
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+        
+        /* 부드러운 체크박스 트랜지션 */
+        .checklist-cb { transition: all 0.2s ease-in-out; }
+    </style>
+</head>
+<body class="bg-[#EAE5DA] font-sans text-gray-800 antialiased selection:bg-green-700 selection:text-white">
+
+    <!-- 모바일 화면용 중앙 정렬 컨테이너 -->
+    <div class="max-w-md mx-auto bg-ivory-100 min-h-screen shadow-2xl relative overflow-hidden">
+        
+        <!-- 상단 헤더 (초록색 배경) -->
+        <header class="bg-green-700 text-ivory-100 p-6 rounded-b-3xl shadow-lg relative z-10">
+            <!-- 나뭇잎/자연을 연상시키는 장식 패턴 (우드톤) -->
+            <div class="absolute top-0 right-0 w-32 h-32 bg-wood-400 opacity-10 rounded-full -mr-10 -mt-10"></div>
+            <div class="absolute bottom-0 right-10 w-16 h-16 bg-ivory-100 opacity-10 rounded-full -mb-8"></div>
+            
+            <p class="text-ivory-300 text-sm font-medium mb-1 tracking-wide">2026. 06. 21 주일설교 묵상</p>
+            <h1 class="text-2xl font-bold leading-snug mb-2">당신은<br><span class="text-wood-400 text-3xl drop-shadow-sm">왕의 대리인</span>입니다</h1>
+            <p class="text-sm font-light opacity-90 border-t border-green-600/50 pt-2 mt-2">📖 창세기 1장 26절 ~ 31절</p>
+        </header>
+
+        <main class="p-5 pb-20">
+            
+            <section class="mb-8">
+                <div class="flex items-center justify-between mb-3">
+                    <h2 class="text-lg font-bold text-green-800 flex items-center">
+                        <span class="text-xl mr-2 text-wood-600">🖼️</span> 설교 슬라이드
+                    </h2>
+                    <span class="text-xs text-wood-600 animate-pulse bg-ivory-200 px-2 py-1 rounded-full">옆으로 넘겨보세요 👉</span>
+                </div>
+                <div class="flex overflow-x-auto snap-x snap-mandatory gap-3 pb-2 hide-scrollbar">
+                    <!-- 슬라이드 1 -->
+                    <div class="snap-center shrink-0 w-[85%] bg-ivory-200 rounded-xl border border-ivory-300 aspect-video flex flex-col items-center justify-center text-wood-600 shadow-sm overflow-hidden relative">
+                        <!-- 실제 이미지 주소로 src 부분을 바꿔주세요 -->
+                        <!-- <img src="이미지주소1.jpg" class="absolute inset-0 w-full h-full object-cover"> -->
+                        <svg class="w-8 h-8 mb-2 opacity-50 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <p class="text-sm font-medium">슬라이드 이미지 1</p>
+                    </div>
+                    <!-- 슬라이드 2 -->
+                    <div class="snap-center shrink-0 w-[85%] bg-ivory-200 rounded-xl border border-ivory-300 aspect-video flex flex-col items-center justify-center text-wood-600 shadow-sm overflow-hidden relative">
+                        <!-- <img src="이미지주소2.jpg" class="absolute inset-0 w-full h-full object-cover"> -->
+                        <svg class="w-8 h-8 mb-2 opacity-50 text-green-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                        <p class="text-sm font-medium">슬라이드 이미지 2</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-10">
+                <h2 class="text-lg font-bold text-green-800 mb-4 flex items-center border-b-2 border-ivory-300 pb-2">
+                    <span class="text-xl mr-2">📝</span> 한눈에 보는 핵심 요약
+                </h2>
+                
+                <div class="space-y-3">
+                    <div class="bg-ivory-200 p-4 rounded-xl border border-ivory-300 shadow-sm">
+                        <h3 class="font-bold text-green-700 mb-1 flex items-center"><span class="mr-2">👑</span> 1. 잘못된 무게 내려놓기</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">내가 옳다는 자존심, 내가 내 인생을 책임져야 한다는 두려움. 그것은 '주인공병'에 걸려 혼자 감당하도록 설계되지 않은 무게를 억지로 지고 있는 것입니다.</p>
+                    </div>
+                    <div class="bg-ivory-200 p-4 rounded-xl border border-ivory-300 shadow-sm">
+                        <h3 class="font-bold text-green-700 mb-1 flex items-center"><span class="mr-2">🗿</span> 2. 우리의 배역: '하나님의 형상'</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">우리는 세상 한복판에 세워진 하나님의 거울(동상)입니다. 억울한 동료 곁에 앉아줄 때, 우는 아이를 안아줄 때 세상은 나를 통해 '선하신 하나님'을 느낍니다.</p>
+                    </div>
+                    <div class="bg-ivory-200 p-4 rounded-xl border border-ivory-300 shadow-sm">
+                        <h3 class="font-bold text-green-700 mb-1 flex items-center"><span class="mr-2">✝️</span> 3. 십자가의 회복과 다스림</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">내가 왕이 되려다 찢은 대본을 예수님이 십자가 보혈로 다시 써주셨습니다. 경쟁자를 짓밟는 것이 아니라, 십자가 사랑으로 질서를 세우고 생명을 살리는 것이 진짜 다스림(라다)입니다.</p>
+                    </div>
+                    <div class="bg-ivory-200 p-4 rounded-xl border border-ivory-300 shadow-sm">
+                        <h3 class="font-bold text-green-700 mb-1 flex items-center"><span class="mr-2">🍞</span> 4. 공급자 하나님 신뢰하기</h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">손해 볼까 두려우신가요? 배우의 도시락을 감독이 챙기듯, 왕의 대리인으로 살아가는 여러분의 밥줄과 미래는 세상의 상사나 통장 잔고가 아니라 창조주 하나님이 책임지십니다.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-10">
+                <div class="bg-green-800 text-ivory-100 p-5 rounded-t-2xl shadow-md relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-24 h-24 bg-wood-400 opacity-20 rounded-full -mr-10 -mt-10"></div>
+                    <h2 class="text-lg font-bold mb-2 flex items-center text-ivory-100">
+                        🎬 나의 자리는 '거룩한 예고편'입니다
+                    </h2>
+                    <p class="text-sm text-ivory-300 leading-relaxed">
+                        하나님은 가장 중요한 자리에 가장 신뢰하는 배우를 세우십니다. 여러분의 팍팍한 일상은 하나님 나라가 어떻게 완성될지를 세상에 보여주는 <strong>가장 위대한 예고편(Trailer)</strong>입니다.
+                    </p>
+                </div>
+                
+                <div class="bg-ivory-200 px-4 py-5 rounded-b-2xl shadow-md space-y-5 border-x border-b border-ivory-300">
+                    
+                    <!-- 카테고리 1: 가정/학교 -->
+                    <div class="relative pl-4 border-l-4 border-wood-500">
+                        <h3 class="font-bold text-green-800 mb-1 flex items-center">
+                            <span class="mr-2 text-lg">🏠</span> 가정 / 학교
+                        </h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            가족은 내 고집으로 정복할 대상이 아니라 끝까지 섬겨야 할 '하나님의 형상'입니다. 
+                            우리 학생들에게 학교는 친구를 밟고 일어서는 곳이 아니라, 세상을 지혜롭게 살려낼 '왕의 실력'을 기르는 거룩한 훈련장입니다.
+                        </p>
+                    </div>
+
+                    <!-- 카테고리 2: 직장 -->
+                    <div class="relative pl-4 border-l-4 border-wood-500">
+                        <h3 class="font-bold text-green-800 mb-1 flex items-center">
+                            <span class="mr-2 text-lg">💼</span> 치열한 직장 (일터)
+                        </h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            요양보호사, 보육교사, 쓰레기 수거, 에어컨 설치, 상담센터 등 여러분의 수고는 단순한 노동이 아닙니다. 세상의 무질서를 몰아내고 상처받은 영혼을 살려내는 <strong>'선한 목자의 다스림'</strong>입니다. 불합리한 상사 앞에서도 자존심을 내세우는 내 싸움이 아니라, 질서를 세우는 '왕의 싸움'을 싸우십시오.
+                        </p>
+                    </div>
+
+                    <!-- 카테고리 3: 기도의 골방 -->
+                    <div class="relative pl-4 border-l-4 border-wood-500">
+                        <h3 class="font-bold text-green-800 mb-1 flex items-center">
+                            <span class="mr-2 text-lg">🙏</span> 기도의 골방 (어르신, 환우)
+                        </h3>
+                        <p class="text-sm text-gray-700 leading-relaxed">
+                            지금 아무것도 할 수 없다는 무력감 속에 계십니까? 그 자리에서 하나님을 바라보는 것 자체가 이미 위대한 대리통치의 시작입니다. 눈물로 가족과 교회를 중보하는 어르신들의 기도는 이 세상을 붙드는 가장 강력한 통치입니다.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="mb-8">
+                <div class="flex items-center justify-between border-b-2 border-ivory-300 pb-2 mb-4">
+                    <h2 class="text-lg font-bold text-green-800 flex items-center">
+                        <span class="text-xl mr-2 text-wood-600">✅</span> 대리인 주간 체크리스트
+                    </h2>
+                </div>
+                <p class="text-xs text-wood-600 font-medium mb-4">* 매일 하루를 돌아보며 해당 요일을 터치해 보세요!</p>
+
+                <div class="space-y-3">
+                    <!-- 월요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-mon" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[월] 무거운 짐 내려놓기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">오늘 아침, "나는 내 인생의 주인공이 아닙니다" 고백하며, 내가 이겨야 한다는 무거운 짐을 주님께 맡겼나요?</span>
+                        </div>
+                    </label>
+
+                    <!-- 화요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-tue" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[화] 왕의 싸움 싸우기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">불합리한 일 앞에서 내 자존심을 위해 폭발하기보다, 하나님이 보고 계심을 믿고 묵묵히 내 자리를 지켰나요?</span>
+                        </div>
+                    </label>
+
+                    <!-- 수요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-wed" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[수] 하나님의 온기 전하기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">오늘 하루 직장 동료나 가족에게 따뜻한 위로나 손길로 '포기하지 않으시는 하나님의 선하심(형상)'을 보여주었나요?</span>
+                        </div>
+                    </label>
+
+                    <!-- 목요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-thu" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[목] 진짜 공급자 신뢰하기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">세상 방식대로 안 살아서 손해 볼까 두려울 때, "내 인생의 밥줄은 창조주의 손에 있다"고 선포하며 평안을 찾았나요?</span>
+                        </div>
+                    </label>
+
+                    <!-- 금요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-fri" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[금] 예고편의 삶 살기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">초라해 보이는 나의 팍팍한 삶의 자리를 '가장 위대한 하나님 나라의 예고편'이라 믿고 기쁨으로 섬겼나요?</span>
+                        </div>
+                    </label>
+
+                    <!-- 토요일 -->
+                    <label class="flex items-start p-3 bg-ivory-100 border-2 border-ivory-300 rounded-xl shadow-sm cursor-pointer transition-all hover:bg-ivory-200">
+                        <input type="checkbox" id="chk-sat" class="checklist-cb mt-1 w-5 h-5 text-green-600 bg-ivory-100 rounded border-wood-400 focus:ring-green-600 focus:ring-2">
+                        <div class="ml-3">
+                            <span class="block text-sm font-bold text-green-800">[토] 은혜의 침상 회복하기</span>
+                            <span class="block text-xs text-gray-600 mt-1 transition-all duration-200">오늘 밤, 핸드폰 대신 주님과 대화하며 "내일 주일 예배를 통해 내 삶의 끊어진 대본을 다시 잇게 하소서" 기도했나요?</span>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="mt-5 flex justify-end">
+                    <button id="btn-open-reset" class="text-xs text-wood-600 font-bold underline underline-offset-2 hover:text-wood-800 transition-colors px-2 py-1">
+                        체크리스트 초기화
+                    </button>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="bg-green-800 p-6 text-center text-sm text-ivory-300 pb-10">
+            <p class="italic leading-relaxed mb-4">"여러분의 일터와 가정에서, 십자가의 사랑으로 이 세상을 살려내는 왕의 대리인들이 되시기를 축복합니다."</p>
+            <p class="font-bold text-ivory-100 text-base">빌드업교회</p>
+        </footer>
+    </div>
+
+    <div id="reset-modal" class="hidden fixed inset-0 bg-black/60 z-50 flex items-center justify-center p-4 backdrop-blur-sm transition-opacity">
+        <div class="bg-ivory-100 rounded-2xl p-6 w-full max-w-[320px] shadow-2xl border border-ivory-300 transform scale-95 transition-transform duration-200 ease-out" id="modal-content">
+            <h3 class="text-lg font-bold mb-2 text-green-800 flex items-center"><span class="mr-2">🔄</span> 기록 초기화</h3>
+            <p class="text-sm text-gray-600 mb-6 leading-relaxed">이번 주 체크리스트 기록을<br>모두 지우고 새로 시작하시겠습니까?</p>
+            <div class="flex justify-end gap-2">
+                <button id="btn-cancel-reset" class="px-4 py-2 text-sm font-medium text-wood-800 bg-ivory-200 hover:bg-ivory-300 rounded-lg transition-colors">취소</button>
+                <button id="btn-confirm-reset" class="px-4 py-2 text-sm font-bold text-white bg-green-700 hover:bg-green-800 rounded-lg shadow-md transition-colors">지우기</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const checkboxes = document.querySelectorAll('.checklist-cb');
+            
+            // 모달 관련 요소
+            const modal = document.getElementById('reset-modal');
+            const modalContent = document.getElementById('modal-content');
+            const btnOpenReset = document.getElementById('btn-open-reset');
+            const btnCancelReset = document.getElementById('btn-cancel-reset');
+            const btnConfirmReset = document.getElementById('btn-confirm-reset');
+
+            // 체크박스 스타일 업데이트 함수
+            const updateStyle = (cb) => {
+                const title = cb.nextElementSibling.querySelector('span:first-child');
+                const desc = cb.nextElementSibling.querySelector('span:last-child');
+                const container = cb.parentElement;
+                
+                if (cb.checked) {
+                    title.classList.add('line-through', 'text-wood-500');
+                    title.classList.remove('text-green-800');
+                    desc.classList.add('opacity-40');
+                    container.classList.add('bg-ivory-200', 'border-wood-400/50');
+                    container.classList.remove('bg-ivory-100', 'border-ivory-300');
+                } else {
+                    title.classList.remove('line-through', 'text-wood-500');
+                    title.classList.add('text-green-800');
+                    desc.classList.remove('opacity-40');
+                    container.classList.remove('bg-ivory-200', 'border-wood-400/50');
+                    container.classList.add('bg-ivory-100', 'border-ivory-300');
+                }
+            };
+
+            // 1. 초기 로드 시 LocalStorage에서 상태 불러오기
+            checkboxes.forEach(cb => {
+                const savedState = localStorage.getItem('20260621_' + cb.id);
+                if (savedState === 'true') {
+                    cb.checked = true;
+                }
+                updateStyle(cb); // 초기 스타일 적용
+
+                // 클릭(변경) 이벤트 리스너
+                cb.addEventListener('change', (e) => {
+                    localStorage.setItem('20260621_' + cb.id, e.target.checked);
+                    updateStyle(e.target);
+                });
+            });
+
+            // 2. 모달 열기 함수
+            const openModal = () => {
+                modal.classList.remove('hidden');
+                // 약간의 지연 후 scale 클래스 변경으로 애니메이션 효과
+                setTimeout(() => {
+                    modalContent.classList.remove('scale-95');
+                    modalContent.classList.add('scale-100');
+                }, 10);
+            };
+
+            // 3. 모달 닫기 함수
+            const closeModal = () => {
+                modalContent.classList.remove('scale-100');
+                modalContent.classList.add('scale-95');
+                setTimeout(() => {
+                    modal.classList.add('hidden');
+                }, 200); // transition 시간과 일치
+            };
+
+            // 버튼 이벤트 리스너 할당
+            btnOpenReset.addEventListener('click', openModal);
+            btnCancelReset.addEventListener('click', closeModal);
+            
+            // 모달 배경 클릭 시 닫기
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) closeModal();
+            });
+
+            // 초기화 확정 버튼 클릭 시
+            btnConfirmReset.addEventListener('click', () => {
+                checkboxes.forEach(cb => {
+                    cb.checked = false;
+                    localStorage.removeItem('20260621_' + cb.id);
+                    updateStyle(cb);
+                });
+                closeModal();
+            });
+        });
+    </script>
+</body>
+</html>
